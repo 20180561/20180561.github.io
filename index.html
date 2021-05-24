@@ -3,16 +3,78 @@
 <head>
 <meta charset='utf-8'>
 <style>
+
+
+header {text-align: center;
+border: solid 2px black;
+width: 900px; margin: auto;
+background-color: #e9e9e9;}
+
+nav {height: 50px; text-align: center; width: 900px;
+margin: auto; border-bottom: double 3px black;}
+
+li {list-style-type: none;}
+#menu li{display: inline;}
+
+section {width: 600px; text-align:center;
+ margin: auto;}
+
+
+
+footer {text-align: center;
+border: solid 2px black;
+width: 900px; height: 50px; margin: auto; padding-top: 30px; 
+font-size: 20px; background-color: #e9e9e9;}
+
+a:link {text-decoration: none; color: black;}
+a:visited {text-decoration: none; color: black;}
+a:hover {text-decoration: none; color: gray;}
+
 table, th, tr, td {
 	border: solid 1px black;
 	border-collapse: collapse;
-	padding: 8px;
-    text-align: center; }
+	padding: 5px;
+    text-align: center;}
+
+
+
+    #a {background-color: #cd7466;}
+    #b {background-color: #cca85c;}
+    #c {background-color: #a7ca70;}
+    #d {background-color: #6a8ec8;}
+    #e {background-color: #d8935a;}
+    #f {background-color: #8974c1;}
+    #g {background-color: #74b2a3;}
+    #h {background-color: #65af75;}
 </style>
 <title>20180561 권강민</title>
 </head>
 <body>
-<h3>2021-1학기 시간표</h3>
+<header>
+<h2>2021-1 시간표</h2>
+</header><br>
+<nav>
+<ul id="menu">
+<li><a href="sign.html">회원가입</a></li>
+<li>ㅣ</li>
+<li><a href="rubato.html">루바토 팬션 안내</a></li>
+<li>ㅣ</li>
+<li><a href="hoseo.html">호서 행사 안내</a></li>
+<li>ㅣ</li>
+<li><a href="open.html">호서 야간 개장</a></li>
+<li>ㅣ</li>
+<li><a href="sale.html">세일 안내장</a></li>
+<li>ㅣ</li>
+<li><a href="schedule.html">월간 일정표</a></li>
+<li>ㅣ</li>
+<li><a href="shopping.html">음료 판매 목록</a></li>
+
+
+</ul>
+</nav>
+<br>
+
+<section>
 <table>
 <tr>
     <td></td><td>월요일</td><td>화요일</td><td>수요일</td><td>목요일</td>
@@ -22,20 +84,20 @@ table, th, tr, td {
     <td></td>
     <td></td>
     <td></td>
-    <td>웹프로그래밍</td>
+    <td id="a">웹프로그래밍</td>
     
 </tr>
 <tr>
     <td>2교시<br>10:30~11:20</td>
-    <td rowspan="2">웹프로그래밍</td>
+    <td rowspan="2" id="a">웹프로그래밍</td>
     <td></td>
     <td></td>
-    <td rowspan="3">경영정보시스템</td>
+    <td rowspan="3" id="f">경영정보시스템</td>
     
 </tr>
 <tr>
     <td>3교시<br>11:30~12:20</td>
-    <td></td><td rowspan="2">대학영어회화</td>
+    <td></td><td rowspan="2" id="d">대학영어회화</td>
 </tr>
 <tr>
     <td>4교시<br>12:30~13:20</td>
@@ -43,11 +105,11 @@ table, th, tr, td {
 </tr>
 <tr>
     <td>5교시<br>13:30~14:20</td>
-    <td></td><td rowspan="3">경영통계</td><td rowspan="2">생활법률</td><td></td>
+    <td></td><td rowspan="3" id="b">경영통계</td><td rowspan="2" id="e">생활법률</td><td></td>
 </tr>
 <tr>
     <td>6교시<br>14:30~15:20</td>
-    <td></td><td rowspan="2">디지털콘텐츠<br>비즈니스개론</td>
+    <td></td><td rowspan="2" id="c">디지털콘텐츠<br>비즈니스개론</td>
 </tr>
 <tr>
     <td>7교시<br>15:30~16:20</td>
@@ -55,25 +117,22 @@ table, th, tr, td {
 </tr>
 <tr>
     <td>8교시<br>16:30~17:20</td>
-    <td></td><td>디지털콘텐츠<br>비즈니스개론</td><td></td><td>자기이해와개발</td>
+    <td></td><td id="c">디지털콘텐츠<br>비즈니스개론</td><td></td><td id="h">자기이해와개발</td>
 </tr>
 <tr>
     <td>9교시<br>17:30~18:20</td>
-    <td></td><td rowspan="2">공감과소통</td><td></td><td></td>
+    <td></td><td rowspan="2" id="g">공감과소통</td><td></td><td></td>
 </tr>
 <tr>
     <td>10교시<br>18:30~19:20</td>
     <td></td><td></td><td></td>
 </tr>
-</table><br>
-<P>
-<a href="sign.html">[회원가입]</a>
-<a href="rubato.html">[루바토 팬션 안내]</a>
-<a href="hoseo.html">[호서 행사 안내]</a>
-<a href="open.html">[호서 야간 개장]</a>
-<a href="sale.html">[세일 안내장]</a>
-<a href="schedule.html">[월간 일정표]</a>
-<a href="shopping.html">[음료 판매 목록]</a>
-</P>
+</table>
+</section>
+<br>
+<footer>
+즐거운 웹프로그래밍 :)
+</footer>
+<br>
 </body>
 </html>
